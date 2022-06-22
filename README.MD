@@ -13,7 +13,7 @@ using example DSN from https://develop.sentry.dev/sdk/overview/
 example: 	sentry413 o0.ingest.sentry.io 0 examplePublicKey staging /tmp/a.zip
 ```
 
-Here is an example of a success using the included code and our sentry DSN (redacted)
+Here is an example of a failure using the included code and our sentry DSN (redacted)
 
 ```shell
 $ ./sentry413 <sentry host> <project id> <public key> <environment> fail.zip
@@ -42,7 +42,7 @@ Via: 1.1 google
 problem submitting file to sentry, status code: 413
 ```
 
-Here is an example of a failure using the included code and our sentry DSN (redacted)
+Here is an example of a success using the included code and our sentry DSN (redacted)
 
 ```shell
 $ ./sentry413 <sentry host> <project id> <public key> staging pass_002.zip
